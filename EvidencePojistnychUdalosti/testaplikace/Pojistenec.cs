@@ -32,7 +32,7 @@ namespace KonzolovaAplikace
         /// <returns>Jméno, Příjmení, Věk, Tel. číslo pojištěných</returns>
         public override string ToString()
         {
-            return $"Jméno: {Jmeno}\t\t|Příjmení: {Prijmeni}\t\t|Věk: {Vek}\t|Tel. číslo: {TelefonniCislo}\t\t|Typ pojištění: {TypPojisteni}";
+            return $"Jméno: {Jmeno}\t\t|Příjmení: {Prijmeni}\t\t|Věk: {Vek}\t|Tel. číslo: {TelefonniCislo}\t\t|Typ pojištění: {TypPojisteni}\n";
         }
     }
 }
